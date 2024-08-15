@@ -1,0 +1,26 @@
+case:
+switch var;
+    case: int; break;
+    default: break;
+
+getchar() = le um carctere.
+fgets(var, tam, stdin) = le uma string
+
+laços = repetição e condensação
+
+while, do while, for (C)
+
+while(condição pu 1(true)){
+    incremento
+    break ou return(se for infinito)
+}
+
+for(var; condição; incremento/decremento){
+    codigo
+}
+
+
+
+do{
+    código
+} while(condição)

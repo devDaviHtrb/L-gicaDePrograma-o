@@ -1,0 +1,6 @@
+continue = pula um ciclo do loop em c tbm
+while n<10:
+    print(n)
+    if n == 5:
+        continue
+printa todos até 10 menos o 5
