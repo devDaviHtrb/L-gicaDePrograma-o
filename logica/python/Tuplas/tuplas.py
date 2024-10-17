@@ -26,6 +26,6 @@ list = list(range(5))#lista até o 4
 tupla = (1,2, "davi", 9.5, True)
 a,b,c,d,e = tupla
 #empacotamento e desempacotamento
-
+print(tupla[2])
 dicionario = {"comida": "arroz", "feijão": True}
 print(dicionario["feijão"])

@@ -1,11 +1,10 @@
-
 lista = [[],[]]#celsius, Fahrenhaint
 while True:
-    temp = float(input("Digite a temperatura: \n"))
-    if input("Digite a unidade de temperatura: C/F\n").upper() == "C":
-        lista[0].append(temp)
+    temp = input("Digite a temperatura no seguinte modelo(numero°F/°C): \n").upper().strip().replace("°", " ").split()
+    if temp[1] == "C":
+        lista[0].append(int(temp[0]))
     else:
-        lista[1].append(temp)
+        lista[1].append(int(temp[0]))
     if input("Continuar a adicionar: S/N\n").upper() == "N":
         break
 def tempconvert():
@@ -14,5 +13,3 @@ def tempconvert():
     for h in lista[1]:
             print(f"{h} graus Fahrenheints são equivalentes a {(h-32)*5/9} graus Celsius") 
 tempconvert()
-
-
