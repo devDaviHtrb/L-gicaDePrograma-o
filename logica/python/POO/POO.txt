@@ -1,0 +1,6 @@
+Objeto é o ser
+Classe é o modelo do Objeto
+Para instanciar um objeto a classe possui um metodo contrutor
+No python quando atribuo um objeto a uma variavel, na verdade estou atribuindo seu endereço e não o próprio objeto
+Na função constrututora o self se refere ao proprio objeto,:
+    self.numero = 2 (Criado um atributo numero dentro do objeto que recebe o parametro numero da função contrutora)
