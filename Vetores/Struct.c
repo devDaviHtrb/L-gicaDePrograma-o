@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(){struct CadastrodeAluno{char nome[86];int idade;float media;};struct CadastrodeAluno x;fgets(x.nome, 86, stdin);scanf("%d", &x.idade);scanf("%f", &x.media);printf("%s, %d, %.2f", x.nome, x.idade, x.media);return 0;}
