@@ -1,13 +1,15 @@
 class Animal:
-    def som():
-        return "som"
+    def som(self):
+        return self.Som
     
 class cachorro(Animal):
-    def som(self):
-        return "au"
+    def __init__(self):
+        super().__init__()
+        self.Som = "au"
 class gato(Animal):
-    def som(self):
-        return "miau"
+    def __init__(self):
+        super().__init__()
+        self.Som = "Miau"
 Gato = gato()
 print(Gato.som())
 Cachorro = cachorro()
