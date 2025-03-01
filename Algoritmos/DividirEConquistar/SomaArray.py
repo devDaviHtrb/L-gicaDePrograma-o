@@ -15,12 +15,10 @@ def ContaItens(arr):
         return  1 + ContaItens(arr[1:])
 
 def AchaMaior(arr):
-    if len(arr)==1:
-        return arr[0]
-    else:
-        if arr[0]> arr[1]:
-            del(arr[1])
-        else:
-            del(arr[0])
-        return AchaMaior(arr)
-print(AchaMaior([0,23,12,3,21]))
+    #No topo da pilha valor mais alto é retornado
+    if len(arr)==2:
+        return arr[0] if arr[0]>arr[1] else arr[1]
+    #Caso o array tenha mais de um elemento, ou seja, não esteja no topo da pilha, seu valor será dado pelo sgundo return
+    sub = AchaMaior(arr[1:])#adiciona 1 elemento de cada vez se pensarmos de trás pra frente
+    return sub if arr[0]< sub else arr[0]
+print(AchaMaior([0,23,21]))
