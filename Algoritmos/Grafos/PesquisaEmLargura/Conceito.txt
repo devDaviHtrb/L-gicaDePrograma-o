@@ -1,0 +1,9 @@
+Pesquisa em largura é um algoritmo que permite descobrir o menor caminho para algo, seja isso um conceito concreto como distância, ou abstrato como o menor número de jogadas para se vencer um jogo e até mesmo o menor número de correções para tornar uma palavra inexistente em uma com semântica real. Tais problemas são chamados de Problema do caminho mínimo
+
+Passos de resolução: Elabore o problema usando grafos e depois resolva-o com a pesquisa em largura
+
+Tipos:
+    1. Existe um caminho de X até Y?
+    2. Qual o caminho mínimos de X até Y?
+
+Filas: Estrutura de dados que não permite acesso aleatório, mas apenas linear, assim permitindo a implementação do tipo 2. Diferente das callstacks, as filas devem ser observadas do ponto inicial.
