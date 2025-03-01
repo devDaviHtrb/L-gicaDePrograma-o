@@ -7,3 +7,6 @@ Tipos:
     2. Qual o caminho mínimos de X até Y?
 
 Filas: Estrutura de dados que não permite acesso aleatório, mas apenas linear, assim permitindo a implementação do tipo 2. Diferente das callstacks, as filas devem ser observadas do ponto inicial.
+
+Filas são FIFO (primeiro a entrar, primeiro a sair).
+Pilhas são LIFO (último a entrar, primeiro a sair).

@@ -1,6 +1,6 @@
 Grafos são estruturas de dados formados por vértices e arestas, os vértices podem ser encarados como nós e as arestas como uma conexão entre eles, sendo que vértices que compartilham a mesma aresta são chamados de vizinhos.
 
-Grafos direcionados: Relação entre dois vertices em que um aponta pra o outro, mas o outro não, sendo assim o que aponta é vizinho do que não aponta, porém o que não aponta não é vizinho do que aponta.
+Grafos direcionados ou dígrafos: Relação entre dois vertices em que um aponta pra o outro, mas o outro não, sendo assim o que aponta é vizinho do que não aponta, porém o que não aponta não é vizinho do que aponta.
 
 Grafo não direcionado: Os vértices não tem setas, então todo vértice conectado a outro com uma aresta é vizinho do outro.
 

@@ -1,0 +1,1 @@
+Consiste na criação de uma lista ordenada valendo-se de grafos, onde os vértices dependem uns dos outros como por exemplo em uma árvore genealógica

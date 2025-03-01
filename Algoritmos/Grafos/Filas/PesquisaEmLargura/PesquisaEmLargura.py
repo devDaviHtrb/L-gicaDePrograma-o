@@ -7,7 +7,7 @@ grafo["Matheus"] = []
 grafo["Maria"] = []
 
 def encontraGamer():
-    #Crio uma fila
+    #Crio uma fila, assim posso encontrar o caminho mínimo, pois os vizinhos serão observados por "camadas"
     filaPesquisa = deque()
     #adiciono a fila todos os meus vizinhos
     filaPesquisa +=  grafo["eu"]
