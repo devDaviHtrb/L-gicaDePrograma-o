@@ -1,0 +1,5 @@
+Ao adicionar pesos nas arestas, o menor caminho não necessariamente é o menor, a partir disso é possível valer-se do algoritmo Dijkstra que funciona descobrindo qual o caminho mais rápido ultilizando grafos ponderados, ou seja, que possuem pesos em suas arestas
+
+Tal algoritmo só funciona com grafos àciclicos, ou seja, grafos direcionados onde as arestas seguem apenas uma direção
+
+O algoritmo não funciona corretamente com pesos negativos
