@@ -10,3 +10,9 @@ Filas: Estrutura de dados que não permite acesso aleatório, mas apenas linear,
 
 Filas são FIFO (primeiro a entrar, primeiro a sair).
 Pilhas são LIFO (último a entrar, primeiro a sair).
+
+Passos de elaboração:
+
+Crie uma fila
+Selecione o primeiro vizinhos, se ele for se eu objetio encerre a função, senão adicione os vizinhos dele a lista
+Repita esses passos
