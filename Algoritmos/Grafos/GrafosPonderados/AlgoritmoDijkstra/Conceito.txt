@@ -3,3 +3,12 @@ Ao adicionar pesos nas arestas, o menor caminho não necessariamente é o menor,
 Tal algoritmo só funciona com grafos àciclicos, ou seja, grafos direcionados onde as arestas seguem apenas uma direção
 
 O algoritmo não funciona corretamente com pesos negativos
+
+
+passos de elaboração:
+
+
+Criar as tabelas hash de: Grafo, pais, custos
+Criar lista de processados
+Criar função que acha o nó mais barato
+Criar função que atualiza os pais e custos dos vizinhos
