@@ -1,0 +1,4 @@
+Algoritmos gulosos/gananciosos são aqueles que buscam resolver um problema optando melhor opção de escolha em um momento específico, ou seja, sempre sendo ganancioso. Seu funcionamento pauta-se na tentativa de se obter um bom resultado globalmente através de bons resultados locais
+Um exemplo de algoritmo guloso é o algoritmo de Djikstra
+
+Algoritmos de aproximação: São a melhor opção quando um algoritmo convencional possui um tempo de execeção big O muito elevado. Seu objetivo é chegar ao resultado que mais se aproxima do ideal em menos tempo

@@ -1,0 +1,3 @@
+Modo de reoslver problemas criando subproblemas e resolvendo-os isoladamente, sendo que um subproblema não pode depender do outro, além disso esse tipo de algoritmo funciona muito bem em relação a limites
+
+Todo problema que pode ser resolvido com porgramação dinâmica funciona com uma tabela
